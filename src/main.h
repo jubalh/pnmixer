@@ -34,7 +34,7 @@ void warn_sound_conn_lost(void);
 void get_current_levels();
 int get_mute_state(gboolean);
 int update_mute_state();
-void hide_me();
+gboolean hide_me(GtkWidget *, GdkEvent *, gpointer);
 gint tray_icon_size();
 void set_vol_meter_color(guint16 nr,guint16 ng,guint16 nb);
 void update_status_icons();

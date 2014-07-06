@@ -171,8 +171,11 @@ void tray_icon_button(GtkStatusIcon *status_icon, GdkEventButton *event, gpointe
 void tray_icon_on_click(GtkStatusIcon *status_icon, gpointer user_data) {
   get_current_levels();
   if (!GTK_WIDGET_VISIBLE(popup_window)) {
+    gtk_widget_show_now(popup_window);
     gtk_widget_grab_focus(vol_scale);
-    gtk_widget_show(popup_window);
+    gdk_keyboard_grab(gtk_widget_get_window(popup_window), TRUE, GDK_CURRENT_TIME);
+    gdk_pointer_grab(gtk_widget_get_window(popup_window), TRUE, GDK_BUTTON_PRESS_MASK,
+		    NULL, NULL, GDK_CURRENT_TIME);
   } else {
     gtk_widget_hide (popup_window);
   }
@@ -366,8 +369,9 @@ int get_mute_state(gboolean set_check) {
 }
 
 
-void hide_me() {
+gboolean hide_me(GtkWidget *widget, GdkEvent *event, gpointer user_data) {
   gtk_widget_hide(popup_window);
+  return FALSE;
 }
 
 
