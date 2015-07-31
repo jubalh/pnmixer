@@ -161,7 +161,7 @@ msgid ""
 "Couldn't make prefs directory: %s\n"
 msgstr ""
 "\n"
-"Datei Einstellungen konnte nicht geladen werden: %s\n"
+"Datei Einstellungen konnten nicht geladen werden: %s\n"
 
 #: ../src/prefs.c:228
 #, c-format
@@ -184,7 +184,7 @@ msgstr ""
 #: ../src/prefs.c:619
 #, c-format
 msgid "Invalid widget passed to acquire_hotkey: %s"
-msgstr ""
+msgstr "Ungültiges Widget übergen um Hotkey zu erhalten: %s"
 
 #: ../src/prefs.c:625 ../data/prefs-gtk3.glade:36 ../data/prefs-gtk2.glade:36
 msgid "Mute/Unmute"
@@ -258,10 +258,10 @@ msgstr ""
 #: ../data/about-gtk3.glade:25 ../data/about-gtk2.glade:26
 msgid ""
 "French: Matthieu Bresson\n"
-"German: Mario Blättermann\n"
+"German: Mario Blättermann, Michael Vetter\n"
 "Italian: Mattia Bertoni"
 msgstr ""
-"Deutsch: Mario Blättermann\n"
+"Deutsch: Mario Blättermann, Michael Vetter\n"
 "Französisch: Matthieu Bresson\n"
 "Italienisch: Mattia Bertoni"
 
@@ -271,7 +271,7 @@ msgstr "Stumm"
 
 #: ../data/popup_window-gtk3.glade:89
 msgid "Mixer"
-msgstr ""
+msgstr "Mixer"
 
 #: ../data/popup_window-gtk3.glade:121 ../data/popup_window-gtk2.glade:160
 msgid "_Mute/Unmute"
@@ -287,7 +287,7 @@ msgstr "_Lautstärkeregler"
 
 #: ../data/popup_window-gtk3.glade:138 ../data/popup_window-gtk2.glade:177
 msgid "Open Volume Control"
-msgstr "Lautstärkeregler öffenen"
+msgstr "Lautstärkeregler öffnen"
 
 #: ../data/popup_window-gtk3.glade:151 ../data/popup_window-gtk2.glade:190
 msgid "Preferences"
@@ -325,19 +325,19 @@ msgstr "Benutzerdefiniert (siehe unten)"
 msgid ""
 "Notification support not\n"
 "enabled at compile time"
-msgstr ""
+msgstr "Benachrichtungsunterstützung wurde zur Kompilierzeit nicht aktiviert"
 
 #: ../data/prefs-gtk3.glade:87 ../data/prefs-gtk2.glade:85
 msgid "Enable Notifications"
-msgstr ""
+msgstr "Aktiviere Benachrichtigungen"
 
 #: ../data/prefs-gtk3.glade:125 ../data/prefs-gtk2.glade:124
 msgid "timeout (ms)"
-msgstr ""
+msgstr "timout (ms)"
 
 #: ../data/prefs-gtk3.glade:146 ../data/prefs-gtk2.glade:145
 msgid "Notify for volume changes from:"
-msgstr ""
+msgstr "Benachrichtige wegen Lautstärkeänderung von:"
 
 #: ../data/prefs-gtk3.glade:165 ../data/prefs-gtk3.glade:1217
 #: ../data/prefs-gtk2.glade:164 ../data/prefs-gtk2.glade:1208
@@ -352,15 +352,15 @@ msgstr "Schrittweite des Mausrades:"
 
 #: ../data/prefs-gtk3.glade:211 ../data/prefs-gtk2.glade:206
 msgid "Adjustment in Popup Window"
-msgstr ""
+msgstr "Anpassung im Popup Fenster"
 
 #: ../data/prefs-gtk3.glade:234 ../data/prefs-gtk2.glade:227
 msgid "External Change"
-msgstr ""
+msgstr "Externe Änderung"
 
 #: ../data/prefs-gtk3.glade:258 ../data/prefs-gtk2.glade:249
 msgid "<b>Notification Options</b>"
-msgstr ""
+msgstr "<b>Benachrichtigungsoptionen</b>"
 
 #: ../data/prefs-gtk3.glade:288 ../data/prefs-gtk2.glade:279
 msgid "Top"
@@ -432,7 +432,7 @@ msgstr "Kanal:"
 
 #: ../data/prefs-gtk3.glade:700 ../data/prefs-gtk2.glade:692
 msgid "Normalize Volume:"
-msgstr ""
+msgstr "Normalisiere Lautstärke:"
 
 #: ../data/prefs-gtk3.glade:716 ../data/prefs-gtk2.glade:708
 msgid "<b>Sound Device</b>"
@@ -492,7 +492,7 @@ msgstr "Leiser"
 
 #: ../data/prefs-gtk3.glade:1087 ../data/prefs-gtk2.glade:1078
 msgid "Double click a HotKey to assign a new Hotkey"
-msgstr "Um einen neuen HotKey festzulegen, doppelklick auf einen HotKey"
+msgstr "Um einen neuen HotKey festzulegen, doppelklicke auf einen HotKey"
 
 #: ../data/prefs-gtk3.glade:1099 ../data/prefs-gtk2.glade:1090
 msgid "Command"
@@ -524,11 +524,11 @@ msgstr "HotKey Definieren"
 
 #: ../data/prefs-gtk3.glade:1343 ../data/prefs-gtk2.glade:1332
 msgid "(press <Ctrl>C to reset)"
-msgstr ""
+msgstr "(drücke <Strg>C um zurückzusetzen)"
 
 #: ../data/prefs-gtk3.glade:1381 ../data/prefs-gtk2.glade:1370
 msgid "Press new HotKey for:"
-msgstr "Druken Sie neue HotKey für:"
+msgstr "Drücke einen neuen HotKey für:"
 
 #: ../data/prefs-gtk3.glade:1422 ../data/prefs-gtk2.glade:1410
 msgid "(Unknown)"
